@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EXERCICIO 6</title>
+</head>
+<body>
+    <script>
+        const number = []
+        let i
+        let flag = false
+        
+            for (i = 0; i < 10; i++) {
+                number[i] = parseFloat(prompt("\nDigite um número: "))
+                if (number[i] < 0) {
+                    document.write("Número inválido.")
+                    flag = true
+                    break
+                }
+            }
+    if (flag == false) {
+        const min = Math.min(...number)
+        const max = Math.max(...number)
+        document.write(`O maior número é o ${max}, o menor número é o ${min}.`)
+    }
+    </script>
+</body>
+</html>
