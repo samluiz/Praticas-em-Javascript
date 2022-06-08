@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EXERCICIO 3</title>
-</head>
-<body>
-    <script>
         let idade = parseInt(prompt("Informe sua idade: "))
         
         if (idade <= 12 && idade >= 0) {
@@ -23,6 +13,3 @@
             document.write("Insira uma idade válida.")
         }
         
-    </script>
-</body>
-</html>

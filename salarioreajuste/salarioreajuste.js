@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EXERCICIO 4</title>
-</head>
-<body>
-    <script>
         let tempoServico = parseInt(prompt("Informe o tempo de serviço do funcionário (em anos): "))
         let salarioBruto = parseFloat(prompt("Informe o sálario bruto do funcionário: "))
         
@@ -20,6 +10,3 @@
             let salarioReajuste = salarioBruto + (salarioBruto * 0.05)
             document.write(`Antigo salário: ${salarioBruto}\nSalário com reajuste: ${salarioReajuste}`)        
         }
-    </script>
-</body>
-</html>

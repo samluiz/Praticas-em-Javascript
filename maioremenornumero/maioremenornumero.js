@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EXERCICIO 6</title>
-</head>
-<body>
-    <script>
         const number = []
         let i
         let flag = false
@@ -23,8 +13,9 @@
     if (flag == false) {
         const min = Math.min(...number)
         const max = Math.max(...number)
+        for (i = 0; i < 10; i++) {
+            document.write(`[${number[i]}] `)
+        }
+        document.write("<br><br>")
         document.write(`O maior número é o ${max}, o menor número é o ${min}.`)
     }
-    </script>
-</body>
-</html>
